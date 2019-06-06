@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-04T12:45:59.469Z",
+        "line": 11,
+        "name": "The one where the users move to cart without adding any item in it",
+        "description": "",
+        "id": "login-and-add-to-cart;the-one-where-the-users-move-to-cart-without-adding-any-item-in-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31420490114,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Alex has registered in to TestMeApp",
+            "match": {
+              "location": "Steps.alex_has_registered_in_to_TestMeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1707487927,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Alex search a particular product like headphones",
+            "match": {
+              "location": "Steps.alex_search_a_particular_product_like_headphones()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112281,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Try to proceed to payment without adding any item in the cart",
+            "match": {
+              "location": "Steps.try_to_proceed_to_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53253,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "TestMeApp doesn\u0027t display the cart icon",
+            "match": {
+              "location": "Steps.testmeapp_doesn_t_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "login and add to cart",
+    "description": "",
+    "id": "login-and-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:feature3/feat3.feature",
+    "tags": []
+  }
+]
